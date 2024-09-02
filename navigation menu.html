@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+<style>
+    /* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    background-color:rgb(116, 95, 135);
+    padding: 10px 0;
+    transition: background-color 0.3s;
+   
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color:yellow;
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s;
+    margin:0  20px;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.section {
+    height: 100vh;
+    padding: 90px;
+    text-align: center;
+    
+}
+
+#home {
+     background-color:bisque;
+     }
+#about { background-color: hotpink; }
+#services { background-color: lightgreen; }
+#contact { background-color: #bdbdbd; }
+
+</style>
+</head>
+<body>
+    <div id="navbar" class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="home" class="section">Home Section</div>
+    <div id="about" class="section">About Section</div>
+    <div id="services" class="section">Services Section</div>
+    <div id="contact" class="section">Contact Section</div>
+ 
+    
+</body>
+</html>
