@@ -1,5 +1,6 @@
 # PRODIGY_WD_01
 PIT/AUG24/02864
+![Screenshot 2024-09-02 181448](https://github.com/user-attachments/assets/c70fdb60-7d4f-4993-81de-0ba8a78a615c)
 ## Overview
 The Navbar Web Application is a simple and responsive navigation bar built using HTML, CSS, and JavaScript. It provides a consistent and easy-to-use interface for navigating through various sections of a website.
 
